@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.video.vrtnu" name="Vrt Nu" provider-name="AnakinzSkywalker" version="0.0.4">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Watch live channels from Vrt Nu.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license />
+    <language />
+    <website />
+    <news />
+  </extension>
+</addon><addon id="repository.anakinzskywalker.kodiplugins" name="anakinzskywalker/kodiplugins Repository" provider-name="anakinzskywalker" version="1.0.1">
+    <extension point="xbmc.addon.repository">
+        
+        <dir minversion="17.0.0">
+            <info compressed="false">https://anakinzskywalker.github.io/kodiplugins/master/addons.xml</info>
+            <checksum>https://anakinzskywalker.github.io/kodiplugins/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://anakinzskywalker.github.io/kodiplugins/master/datadir/</datadir>
+        </dir>
+
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">A personal Kodi addon repository from https://github.com/anakinzskywalker/kodiplugins</summary>
+        <description lang="en_GB" />
+        <language />
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <forum />
+        <source />
+        <news />
+        <disclaimer />
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart />
+        </assets>
+    </extension>
+</addon></addons>
